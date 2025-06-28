@@ -64,3 +64,29 @@ This allows recommending movies based purely on **content-based features**, not 
    - Return top-N recommendations
 
 ---
+
+## ▶️ How to Run (with Conda)
+
+### 1. Clone this repository
+```bash
+git clone https://github.com/TPTN1707/Movie-Recommendation-System-using-DBSCAN-IMDB.git
+cd Movie-Recommendation-System-using-DBSCAN-IMDB/
+```
+### 2. Create and activate a Conda environment (Python ≥ 3.11)
+
+# Create environment
+```bash
+conda create -n moviebot python=3.11 -y
+```
+# Activate environment
+```bash
+conda activate moviebot
+```
+### 3. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+### 4. Launch the Streamlit app
+```bash
+streamlit run app.py
+```
